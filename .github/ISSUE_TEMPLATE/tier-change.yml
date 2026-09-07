@@ -1,0 +1,50 @@
+name: Tier change
+description: Argue that one aircraft type sits at the wrong rarity tier.
+title: "Tier of <CODE>: <current> → <proposed>"
+labels: [tier]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One type per issue. Read `rarity.md` first: a tier is **how often a spotter in the network's coverage sees this type overhead**, not how many were built.
+  - type: input
+    id: code
+    attributes:
+      label: ICAO designator
+      description: The DOC 8643 code the transponder sends (A333, B744, PC24). Not a family name.
+      placeholder: A333
+    validations:
+      required: true
+  - type: dropdown
+    id: current
+    attributes:
+      label: Current tier
+      options: [common, uncommon, rare, epic, legendary, mythical]
+    validations:
+      required: true
+  - type: dropdown
+    id: proposed
+    attributes:
+      label: Proposed tier
+      options: [common, uncommon, rare, epic, legendary, mythical]
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where do you spot, and how often do you see this type there?
+      description: This is the evidence. "Frankfurt, 3–4 a day from Lufthansa" beats "it is common everywhere".
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often, roughly
+      options: [several a day, daily, weekly, monthly, a few times a year, rarer]
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Link (optional)
+      description: A Skydex station page, a collection, or anything that shows the frequency.

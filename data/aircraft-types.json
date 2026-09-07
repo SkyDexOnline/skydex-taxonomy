@@ -1,0 +1,2304 @@
+{
+  "_readme": "Curated aircraft-type reference overrides (docs/aircraft-subject-content-plan.md AC5). Applied by scripts/fix-aircraft-types.mjs. Keys are ICAO type designators (DOC 8643). Fields: model (proper marketing name — the restored dump stores family placeholders like '737 Family'), manufacturer (matched by name against the `manufacturers` collection), seats (typical two-class), rangeKm, engines {count,type}, cruiseKts (KNOTS — the dump's `cruiseSpeedKts` column is a mix of km/h and knots, so a curated figure here always wins, no --force-specs needed). Only fields we are confident about are listed; the script fills empty spec fields and replaces a model name only when the stored one is a placeholder. Numbers are typical published figures, not certification data. PUBLIC COPY: mirrored from the Skydex application on every publish; rows under old-dataset alias keys and non-designator keys are omitted here (see data/aliases.json). Propose changes by pull request against THIS file; a maintainer ports merged changes upstream.",
+  "A124": {
+    "rarity": "legendary",
+    "model": "Antonov An-124 Ruslan",
+    "manufacturer": "Antonov",
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "A139": {
+    "rarity": "common",
+    "model": "Leonardo AW139",
+    "manufacturer": "Leonardo",
+    "seats": 15,
+    "rangeKm": 1061,
+    "engines": {
+      "count": 2,
+      "type": "turboshaft"
+    }
+  },
+  "A19N": {
+    "rarity": "uncommon",
+    "model": "Airbus A319neo",
+    "manufacturer": "Airbus",
+    "seats": 140,
+    "rangeKm": 6850,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A20N": {
+    "model": "Airbus A320neo",
+    "manufacturer": "Airbus",
+    "seats": 165,
+    "rangeKm": 6300,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A210": {
+    "model": "Aquila A210",
+    "manufacturer": "Aquila",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "A21N": {
+    "model": "Airbus A321neo",
+    "manufacturer": "Airbus",
+    "seats": 200,
+    "rangeKm": 7400,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A306": {
+    "rarity": "rare",
+    "model": "Airbus A300-600",
+    "manufacturer": "Airbus",
+    "seats": 266,
+    "rangeKm": 7500,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A310": {
+    "rarity": "epic",
+    "model": "Airbus A310",
+    "manufacturer": "Airbus",
+    "seats": 220,
+    "rangeKm": 9600,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A318": {
+    "model": "Airbus A318",
+    "manufacturer": "Airbus",
+    "seats": 107,
+    "rangeKm": 5750,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A319": {
+    "model": "Airbus A319",
+    "manufacturer": "Airbus",
+    "seats": 124,
+    "rangeKm": 6950,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A320": {
+    "rarity": "common",
+    "model": "Airbus A320",
+    "manufacturer": "Airbus",
+    "seats": 150,
+    "rangeKm": 6100,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A321": {
+    "rarity": "common",
+    "model": "Airbus A321",
+    "manufacturer": "Airbus",
+    "seats": 185,
+    "rangeKm": 5950,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A332": {
+    "rarity": "uncommon",
+    "model": "Airbus A330-200",
+    "manufacturer": "Airbus",
+    "seats": 247,
+    "rangeKm": 13450,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A333": {
+    "rarity": "uncommon",
+    "model": "Airbus A330-300",
+    "manufacturer": "Airbus",
+    "seats": 277,
+    "rangeKm": 11750,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A338": {
+    "model": "Airbus A330-800neo",
+    "manufacturer": "Airbus",
+    "seats": 257,
+    "rangeKm": 15094,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A339": {
+    "model": "Airbus A330-900neo",
+    "manufacturer": "Airbus",
+    "seats": 287,
+    "rangeKm": 13334,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A342": {
+    "model": "Airbus A340-200",
+    "manufacturer": "Airbus",
+    "seats": 261,
+    "rangeKm": 14800,
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "A343": {
+    "model": "Airbus A340-300",
+    "manufacturer": "Airbus",
+    "seats": 295,
+    "rangeKm": 13500,
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "A345": {
+    "model": "Airbus A340-500",
+    "manufacturer": "Airbus",
+    "seats": 293,
+    "rangeKm": 16670,
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "A346": {
+    "model": "Airbus A340-600",
+    "manufacturer": "Airbus",
+    "seats": 326,
+    "rangeKm": 14450,
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "A359": {
+    "rarity": "rare",
+    "model": "Airbus A350-900",
+    "manufacturer": "Airbus",
+    "seats": 315,
+    "rangeKm": 15000,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A35K": {
+    "rarity": "rare",
+    "model": "Airbus A350-1000",
+    "manufacturer": "Airbus",
+    "seats": 369,
+    "rangeKm": 16100,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A388": {
+    "model": "Airbus A380-800",
+    "manufacturer": "Airbus",
+    "seats": 525,
+    "rangeKm": 14800,
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "A3ST": {
+    "model": "Airbus A300-600ST Beluga",
+    "manufacturer": "Airbus",
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A400": {
+    "rarity": "epic",
+    "model": "Airbus A400M Atlas",
+    "manufacturer": "Airbus",
+    "engines": {
+      "count": 4,
+      "type": "turboprop"
+    }
+  },
+  "AA5": {
+    "model": "Grumman American AA-5 Traveler",
+    "manufacturer": "Grumman American",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "AN12": {
+    "rarity": "epic",
+    "model": "Antonov An-12",
+    "manufacturer": "Antonov",
+    "engines": {
+      "count": 4,
+      "type": "turboprop"
+    }
+  },
+  "AN26": {
+    "rarity": "epic",
+    "model": "Antonov An-26",
+    "manufacturer": "Antonov",
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "AP22": {
+    "model": "Aeroprakt A-22 Foxbat",
+    "manufacturer": "Aeroprakt",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "AP32": {
+    "rarity": "common",
+    "model": "Aeroprakt A-32 Vixxen",
+    "manufacturer": "Aeroprakt",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    },
+    "cruiseKts": 105
+  },
+  "AS50": {
+    "model": "Airbus Helicopters AS350 Écureuil",
+    "manufacturer": "Airbus Helicopters",
+    "seats": 6,
+    "rangeKm": 662,
+    "engines": {
+      "count": 1,
+      "type": "turboshaft"
+    }
+  },
+  "AS55": {
+    "model": "Airbus Helicopters AS355 Ecureuil 2",
+    "manufacturer": "Airbus Helicopters",
+    "seats": 5,
+    "engines": {
+      "count": 2,
+      "type": "turboshaft"
+    }
+  },
+  "AS65": {
+    "model": "Airbus Helicopters AS365 Dauphin 2",
+    "manufacturer": "Airbus Helicopters",
+    "seats": 12,
+    "engines": {
+      "count": 2,
+      "type": "turboshaft"
+    }
+  },
+  "AT43": {
+    "model": "ATR 42-300",
+    "manufacturer": "ATR",
+    "seats": 48,
+    "rangeKm": 1555,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "AT45": {
+    "model": "ATR 42-500",
+    "manufacturer": "ATR",
+    "seats": 48,
+    "rangeKm": 1555,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "AT46": {
+    "model": "ATR 42-600",
+    "manufacturer": "ATR",
+    "seats": 48,
+    "rangeKm": 1326,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "AT72": {
+    "model": "ATR 72",
+    "manufacturer": "ATR",
+    "seats": 70,
+    "rangeKm": 1528,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "AT73": {
+    "model": "ATR 72-200",
+    "manufacturer": "ATR",
+    "seats": 70,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "AT75": {
+    "model": "ATR 72-500",
+    "manufacturer": "ATR",
+    "seats": 70,
+    "rangeKm": 1528,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "AT76": {
+    "rarity": "common",
+    "model": "ATR 72-600",
+    "manufacturer": "ATR",
+    "seats": 72,
+    "rangeKm": 1370,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "ATP": {
+    "model": "BAe ATP",
+    "manufacturer": "BAe",
+    "seats": 68,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "B06": {
+    "rarity": "common",
+    "model": "Bell 206 JetRanger",
+    "manufacturer": "Bell",
+    "seats": 5,
+    "rangeKm": 693,
+    "engines": {
+      "count": 1,
+      "type": "turboshaft"
+    }
+  },
+  "B37M": {
+    "rarity": "epic",
+    "model": "Boeing 737 MAX 7",
+    "manufacturer": "Boeing",
+    "seats": 153,
+    "rangeKm": 7130,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B38M": {
+    "model": "Boeing 737 MAX 8",
+    "manufacturer": "Boeing",
+    "seats": 178,
+    "rangeKm": 6570,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B39M": {
+    "model": "Boeing 737 MAX 9",
+    "manufacturer": "Boeing",
+    "seats": 193,
+    "rangeKm": 6570,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B3XM": {
+    "rarity": "legendary",
+    "model": "Boeing 737 MAX 10",
+    "manufacturer": "Boeing",
+    "seats": 204,
+    "rangeKm": 6110,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B733": {
+    "rarity": "rare",
+    "model": "Boeing 737-300",
+    "manufacturer": "Boeing",
+    "seats": 140,
+    "rangeKm": 4400,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B734": {
+    "rarity": "rare",
+    "model": "Boeing 737-400",
+    "manufacturer": "Boeing",
+    "seats": 159,
+    "rangeKm": 3800,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B735": {
+    "rarity": "epic",
+    "model": "Boeing 737-500",
+    "manufacturer": "Boeing",
+    "seats": 122,
+    "rangeKm": 4400,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B736": {
+    "rarity": "epic",
+    "model": "Boeing 737-600",
+    "manufacturer": "Boeing",
+    "seats": 119,
+    "rangeKm": 5650,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B737": {
+    "model": "Boeing 737-700",
+    "manufacturer": "Boeing",
+    "seats": 140,
+    "rangeKm": 6230,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B738": {
+    "rarity": "common",
+    "model": "Boeing 737-800",
+    "manufacturer": "Boeing",
+    "seats": 175,
+    "rangeKm": 5765,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B739": {
+    "rarity": "uncommon",
+    "model": "Boeing 737-900",
+    "manufacturer": "Boeing",
+    "seats": 189,
+    "rangeKm": 5900,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B741": {
+    "rarity": "mythical",
+    "model": "Boeing 747-100",
+    "manufacturer": "Boeing",
+    "seats": 366,
+    "rangeKm": 8560,
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "B742": {
+    "rarity": "legendary",
+    "model": "Boeing 747-200",
+    "manufacturer": "Boeing",
+    "seats": 366,
+    "rangeKm": 12700,
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "B743": {
+    "rarity": "legendary",
+    "model": "Boeing 747-300",
+    "manufacturer": "Boeing",
+    "seats": 400,
+    "rangeKm": 11720,
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "B744": {
+    "model": "Boeing 747-400",
+    "manufacturer": "Boeing",
+    "seats": 416,
+    "rangeKm": 13450,
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "B748": {
+    "model": "Boeing 747-8",
+    "manufacturer": "Boeing",
+    "seats": 410,
+    "rangeKm": 14320,
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "B752": {
+    "model": "Boeing 757-200",
+    "manufacturer": "Boeing",
+    "seats": 200,
+    "rangeKm": 7250,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B753": {
+    "model": "Boeing 757-300",
+    "manufacturer": "Boeing",
+    "seats": 243,
+    "rangeKm": 6295,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B762": {
+    "model": "Boeing 767-200",
+    "manufacturer": "Boeing",
+    "seats": 216,
+    "rangeKm": 12200,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B763": {
+    "model": "Boeing 767-300",
+    "manufacturer": "Boeing",
+    "seats": 269,
+    "rangeKm": 11070,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B764": {
+    "model": "Boeing 767-400",
+    "manufacturer": "Boeing",
+    "seats": 304,
+    "rangeKm": 10415,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B772": {
+    "model": "Boeing 777-200",
+    "manufacturer": "Boeing",
+    "seats": 313,
+    "rangeKm": 9700,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B773": {
+    "model": "Boeing 777-300",
+    "manufacturer": "Boeing",
+    "seats": 368,
+    "rangeKm": 11165,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B77L": {
+    "model": "Boeing 777-200LR",
+    "manufacturer": "Boeing",
+    "seats": 317,
+    "rangeKm": 15843,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B77W": {
+    "rarity": "rare",
+    "model": "Boeing 777-300ER",
+    "manufacturer": "Boeing",
+    "seats": 396,
+    "rangeKm": 13649,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B788": {
+    "model": "Boeing 787-8 Dreamliner",
+    "manufacturer": "Boeing",
+    "seats": 248,
+    "rangeKm": 13530,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B789": {
+    "rarity": "rare",
+    "model": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "seats": 296,
+    "rangeKm": 14010,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "B78X": {
+    "model": "Boeing 787-10 Dreamliner",
+    "manufacturer": "Boeing",
+    "seats": 336,
+    "rangeKm": 11910,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "BCS1": {
+    "model": "Airbus A220-100",
+    "manufacturer": "Airbus",
+    "seats": 110,
+    "rangeKm": 6390,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "BCS3": {
+    "model": "Airbus A220-300",
+    "manufacturer": "Airbus",
+    "seats": 130,
+    "rangeKm": 6297,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "BE20": {
+    "model": "Beechcraft King Air 200",
+    "manufacturer": "Beechcraft",
+    "seats": 9,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "BE35": {
+    "model": "Beechcraft Bonanza 35",
+    "manufacturer": "Beechcraft",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "BE36": {
+    "model": "Beechcraft Bonanza 36",
+    "manufacturer": "Beechcraft",
+    "seats": 6,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "BE55": {
+    "model": "Beechcraft Baron 55",
+    "manufacturer": "Beechcraft",
+    "seats": 6,
+    "engines": {
+      "count": 2,
+      "type": "piston"
+    }
+  },
+  "BE58": {
+    "model": "Beechcraft Baron 58",
+    "manufacturer": "Beechcraft",
+    "seats": 6,
+    "engines": {
+      "count": 2,
+      "type": "piston"
+    }
+  },
+  "BREZ": {
+    "model": "Aerostyle Breezer",
+    "manufacturer": "Aerostyle",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "C130": {
+    "rarity": "rare",
+    "model": "Lockheed C-130 Hercules",
+    "manufacturer": "Lockheed",
+    "engines": {
+      "count": 4,
+      "type": "turboprop"
+    }
+  },
+  "C150": {
+    "cruiseKts": 94
+  },
+  "C152": {
+    "model": "Cessna 152",
+    "manufacturer": "Cessna",
+    "seats": 2,
+    "rangeKm": 763,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    },
+    "cruiseKts": 93
+  },
+  "C162": {
+    "model": "Cessna 162 Skycatcher",
+    "manufacturer": "Cessna",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "C17": {
+    "rarity": "epic",
+    "model": "Boeing C-17 Globemaster III",
+    "manufacturer": "Boeing",
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "C170": {
+    "model": "Cessna 170",
+    "manufacturer": "Cessna",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "C172": {
+    "model": "Cessna 172 Skyhawk",
+    "manufacturer": "Cessna",
+    "seats": 4,
+    "rangeKm": 1272,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "C175": {
+    "model": "Cessna 175 Skylark",
+    "manufacturer": "Cessna",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "C177": {
+    "model": "Cessna 177 Cardinal",
+    "manufacturer": "Cessna",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "C180": {
+    "model": "Cessna 180 Skywagon",
+    "manufacturer": "Cessna",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "C182": {
+    "model": "Cessna 182 Skylane",
+    "manufacturer": "Cessna",
+    "seats": 4,
+    "rangeKm": 1722,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "C185": {
+    "model": "Cessna 185 Skywagon",
+    "manufacturer": "Cessna",
+    "seats": 6,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "C206": {
+    "model": "Cessna 206 Stationair",
+    "manufacturer": "Cessna",
+    "seats": 6,
+    "rangeKm": 1352,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "C208": {
+    "model": "Cessna 208 Caravan",
+    "manufacturer": "Cessna",
+    "seats": 9,
+    "rangeKm": 1982,
+    "engines": {
+      "count": 1,
+      "type": "turboprop"
+    }
+  },
+  "C210": {
+    "model": "Cessna 210 Centurion",
+    "manufacturer": "Cessna",
+    "seats": 6,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "C310": {
+    "model": "Cessna 310",
+    "manufacturer": "Cessna",
+    "seats": 6,
+    "engines": {
+      "count": 2,
+      "type": "piston"
+    }
+  },
+  "C402": {
+    "model": "Cessna 402",
+    "manufacturer": "Cessna",
+    "seats": 9,
+    "engines": {
+      "count": 2,
+      "type": "piston"
+    }
+  },
+  "C42": {
+    "model": "Ikarus C42",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    },
+    "manufacturer": "Comco Ikarus"
+  },
+  "C421": {
+    "model": "Cessna 421 Golden Eagle",
+    "manufacturer": "Cessna",
+    "seats": 8,
+    "engines": {
+      "count": 2,
+      "type": "piston"
+    }
+  },
+  "C510": {
+    "model": "Cessna Citation Mustang",
+    "manufacturer": "Cessna",
+    "seats": 5,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "C525": {
+    "model": "Cessna CitationJet CJ1",
+    "manufacturer": "Cessna",
+    "seats": 7,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "C550": {
+    "model": "Cessna Citation II",
+    "manufacturer": "Cessna",
+    "seats": 10,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "C560": {
+    "model": "Cessna Citation V",
+    "manufacturer": "Cessna",
+    "seats": 9,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "C56X": {
+    "model": "Cessna Citation Excel",
+    "manufacturer": "Cessna",
+    "seats": 10,
+    "rangeKm": 3428,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "C680": {
+    "model": "Cessna Citation Sovereign",
+    "manufacturer": "Cessna",
+    "seats": 12,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "C700": {
+    "model": "Cessna Citation Longitude",
+    "manufacturer": "Cessna",
+    "seats": 12,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "C72R": {
+    "model": "Cessna 172RG Cutlass",
+    "manufacturer": "Cessna",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    },
+    "cruiseKts": 140
+  },
+  "C750": {
+    "model": "Cessna Citation X",
+    "manufacturer": "Cessna",
+    "seats": 12,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "C82R": {
+    "cruiseKts": 160
+  },
+  "C82T": {
+    "model": "Cessna TR182 Turbo Skylane RG",
+    "manufacturer": "Cessna",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "CH7A": {
+    "model": "Aeronca 7AC Champion",
+    "manufacturer": "Aeronca",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "CH7B": {
+    "model": "American Champion 7GCBC Citabria",
+    "manufacturer": "American Champion",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "CL35": {
+    "model": "Bombardier Challenger 350",
+    "manufacturer": "Bombardier",
+    "seats": 10,
+    "rangeKm": 5926,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "CL60": {
+    "model": "Bombardier Challenger 600",
+    "manufacturer": "Bombardier",
+    "seats": 12,
+    "rangeKm": 6500,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "COL3": {
+    "model": "Cessna 350 Corvalis",
+    "manufacturer": "Cessna",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "COL4": {
+    "model": "Cessna 400 Corvalis TT",
+    "manufacturer": "Cessna",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "CRJ1": {
+    "model": "Bombardier CRJ100",
+    "manufacturer": "Bombardier",
+    "seats": 50,
+    "rangeKm": 2960,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "CRJ2": {
+    "model": "Bombardier CRJ200",
+    "manufacturer": "Bombardier",
+    "seats": 50,
+    "rangeKm": 3045,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "CRJ7": {
+    "model": "Bombardier CRJ700",
+    "manufacturer": "Bombardier",
+    "seats": 70,
+    "rangeKm": 3045,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "CRJ9": {
+    "model": "Bombardier CRJ900",
+    "manufacturer": "Bombardier",
+    "seats": 90,
+    "rangeKm": 2956,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "CRJX": {
+    "model": "Bombardier CRJ1000",
+    "manufacturer": "Bombardier",
+    "seats": 104,
+    "rangeKm": 3004,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "D250": {
+    "rarity": "common",
+    "model": "Robin DR-250 Capitaine",
+    "manufacturer": "Robin",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "DA40": {
+    "model": "Diamond DA40 Diamond Star",
+    "manufacturer": "Diamond Aircraft",
+    "seats": 4,
+    "rangeKm": 1341,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "DA42": {
+    "model": "Diamond DA42 Twin Star",
+    "manufacturer": "Diamond Aircraft",
+    "seats": 4,
+    "rangeKm": 2250,
+    "engines": {
+      "count": 2,
+      "type": "piston"
+    }
+  },
+  "DA50": {
+    "model": "Diamond DA50",
+    "manufacturer": "Diamond Aircraft",
+    "seats": 5,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    },
+    "cruiseKts": 181
+  },
+  "DA62": {
+    "model": "Diamond DA62",
+    "manufacturer": "Diamond Aircraft",
+    "seats": 7,
+    "engines": {
+      "count": 2,
+      "type": "piston"
+    }
+  },
+  "DH8A": {
+    "model": "De Havilland Canada Dash 8-100",
+    "manufacturer": "De Havilland Canada",
+    "seats": 37,
+    "rangeKm": 1889,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "DH8B": {
+    "model": "De Havilland Canada Dash 8-200",
+    "manufacturer": "De Havilland Canada",
+    "seats": 37,
+    "rangeKm": 1713,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "DH8C": {
+    "model": "De Havilland Canada Dash 8-300",
+    "manufacturer": "De Havilland Canada",
+    "seats": 50,
+    "rangeKm": 1711,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "DH8D": {
+    "model": "De Havilland Canada Dash 8-400",
+    "manufacturer": "De Havilland Canada",
+    "seats": 78,
+    "rangeKm": 2040,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "DIMO": {
+    "cruiseKts": 100
+  },
+  "DR30": {
+    "model": "Robin DR300",
+    "manufacturer": "Robin",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "DR40": {
+    "model": "Robin DR400",
+    "manufacturer": "Robin",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "DV20": {
+    "model": "Diamond DV20 Katana",
+    "manufacturer": "Diamond Aircraft",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "E135": {
+    "model": "Embraer ERJ 135",
+    "manufacturer": "Embraer",
+    "seats": 37,
+    "rangeKm": 3241,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "E145": {
+    "model": "Embraer ERJ 145",
+    "manufacturer": "Embraer",
+    "seats": 50,
+    "rangeKm": 2870,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "E170": {
+    "model": "Embraer E170",
+    "manufacturer": "Embraer",
+    "seats": 72,
+    "rangeKm": 3982,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "E190": {
+    "model": "Embraer E190",
+    "manufacturer": "Embraer",
+    "seats": 100,
+    "rangeKm": 4537,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "E195": {
+    "model": "Embraer E195",
+    "manufacturer": "Embraer",
+    "seats": 116,
+    "rangeKm": 3990,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "E290": {
+    "rarity": "uncommon",
+    "model": "Embraer E190-E2",
+    "manufacturer": "Embraer",
+    "seats": 106,
+    "rangeKm": 5278,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "E295": {
+    "rarity": "uncommon",
+    "model": "Embraer E195-E2",
+    "manufacturer": "Embraer",
+    "seats": 132,
+    "rangeKm": 4815,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "E50P": {
+    "model": "Embraer Phenom 100",
+    "manufacturer": "Embraer",
+    "seats": 5,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "E545": {
+    "model": "Embraer Praetor 500",
+    "manufacturer": "Embraer",
+    "seats": 9,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "E55P": {
+    "model": "Embraer Phenom 300",
+    "manufacturer": "Embraer",
+    "seats": 9,
+    "rangeKm": 3650,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    },
+    "cruiseKts": 464
+  },
+  "E75L": {
+    "model": "Embraer E175 (long wing)",
+    "manufacturer": "Embraer",
+    "seats": 78,
+    "rangeKm": 3706,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "E75S": {
+    "model": "Embraer E175 (short wing)",
+    "manufacturer": "Embraer",
+    "seats": 78,
+    "rangeKm": 3706,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "EC20": {
+    "model": "Airbus Helicopters H120 Colibri",
+    "manufacturer": "Airbus Helicopters",
+    "seats": 5,
+    "rangeKm": 710,
+    "engines": {
+      "count": 1,
+      "type": "turboshaft"
+    },
+    "cruiseKts": 120
+  },
+  "EC35": {
+    "model": "Airbus Helicopters H135",
+    "manufacturer": "Airbus Helicopters",
+    "seats": 7,
+    "rangeKm": 635,
+    "engines": {
+      "count": 2,
+      "type": "turboshaft"
+    }
+  },
+  "EC45": {
+    "model": "Airbus Helicopters H145",
+    "manufacturer": "Airbus Helicopters",
+    "seats": 9,
+    "rangeKm": 662,
+    "engines": {
+      "count": 2,
+      "type": "turboshaft"
+    }
+  },
+  "ECHO": {
+    "model": "Tecnam P92 Echo",
+    "manufacturer": "Tecnam",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "EV97": {
+    "model": "Evektor EV-97 EuroStar",
+    "manufacturer": "Evektor",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "F100": {
+    "model": "Fokker 100",
+    "manufacturer": "Fokker",
+    "seats": 109,
+    "rangeKm": 3170,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "F2TH": {
+    "model": "Dassault Falcon 2000",
+    "manufacturer": "Dassault",
+    "seats": 10,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "F50": {
+    "model": "Fokker 50",
+    "manufacturer": "Fokker",
+    "seats": 50,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "F70": {
+    "model": "Fokker 70",
+    "manufacturer": "Fokker",
+    "seats": 79,
+    "rangeKm": 3410,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "FA7X": {
+    "model": "Dassault Falcon 7X",
+    "manufacturer": "Dassault",
+    "seats": 14,
+    "engines": {
+      "count": 3,
+      "type": "jet"
+    }
+  },
+  "FDCT": {
+    "cruiseKts": 108
+  },
+  "G109": {
+    "model": "Grob G109",
+    "manufacturer": "Grob",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "G150": {
+    "model": "Gulfstream G150",
+    "manufacturer": "Gulfstream Aerospace",
+    "seats": 8,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "G280": {
+    "model": "Gulfstream G280",
+    "manufacturer": "Gulfstream Aerospace",
+    "seats": 10,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "G70": {
+    "rarity": "common",
+    "model": "Groppo G-70",
+    "manufacturer": "Groppo",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "GA5C": {
+    "model": "Gulfstream G500",
+    "manufacturer": "Gulfstream Aerospace",
+    "seats": 19,
+    "rangeKm": 9816,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "GA6C": {
+    "model": "Gulfstream G600",
+    "manufacturer": "Gulfstream Aerospace",
+    "seats": 19,
+    "rangeKm": 12223,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "GALX": {
+    "model": "Gulfstream G200",
+    "manufacturer": "Gulfstream Aerospace",
+    "seats": 10,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "GLEX": {
+    "model": "Bombardier Global Express",
+    "manufacturer": "Bombardier",
+    "seats": 13,
+    "rangeKm": 11112,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "GLF4": {
+    "model": "Gulfstream IV",
+    "manufacturer": "Gulfstream Aerospace",
+    "seats": 14,
+    "rangeKm": 7820,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "GLF5": {
+    "model": "Gulfstream V",
+    "manufacturer": "Gulfstream Aerospace",
+    "seats": 16,
+    "rangeKm": 12501,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "GLF6": {
+    "model": "Gulfstream G650",
+    "manufacturer": "Gulfstream Aerospace",
+    "seats": 18,
+    "rangeKm": 13890,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "HDJT": {
+    "model": "Honda HA-420 HondaJet",
+    "manufacturer": "Honda Aircraft",
+    "seats": 6,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "IL76": {
+    "rarity": "epic",
+    "model": "Ilyushin Il-76",
+    "manufacturer": "Ilyushin",
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "J3": {
+    "model": "Piper J-3 Cub",
+    "manufacturer": "Piper",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "L410": {
+    "rarity": "rare",
+    "model": "Let L-410 Turbolet",
+    "manufacturer": "Let",
+    "seats": 19,
+    "rangeKm": 1500,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "LGND": {
+    "model": "Aeropilot Legend",
+    "manufacturer": "Aeropilot",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "LJ35": {
+    "model": "Learjet 35",
+    "seats": 8,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "LJ60": {
+    "cruiseKts": 453
+  },
+  "M20P": {
+    "model": "Mooney M20",
+    "manufacturer": "Mooney",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "M20T": {
+    "model": "Mooney M20M Bravo",
+    "manufacturer": "Mooney",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "M600": {
+    "model": "Piper M600",
+    "manufacturer": "Piper",
+    "seats": 6,
+    "engines": {
+      "count": 1,
+      "type": "turboprop"
+    }
+  },
+  "M7": {
+    "model": "Maule M-7",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    },
+    "manufacturer": "Maule"
+  },
+  "MD11": {
+    "model": "McDonnell Douglas MD-11",
+    "manufacturer": "McDonnell Douglas",
+    "seats": 293,
+    "rangeKm": 12670,
+    "engines": {
+      "count": 3,
+      "type": "jet"
+    }
+  },
+  "MD82": {
+    "rarity": "epic",
+    "model": "McDonnell Douglas MD-82",
+    "manufacturer": "McDonnell Douglas",
+    "seats": 155,
+    "rangeKm": 3798,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "MD83": {
+    "rarity": "epic",
+    "model": "McDonnell Douglas MD-83",
+    "manufacturer": "McDonnell Douglas",
+    "seats": 155,
+    "rangeKm": 4635,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "MD88": {
+    "rarity": "epic",
+    "model": "McDonnell Douglas MD-88",
+    "manufacturer": "McDonnell Douglas",
+    "seats": 155,
+    "rangeKm": 3798,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "MD90": {
+    "rarity": "legendary",
+    "model": "McDonnell Douglas MD-90",
+    "manufacturer": "McDonnell Douglas",
+    "seats": 158,
+    "rangeKm": 3860,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "O1": {
+    "model": "Cessna O-1 Bird Dog",
+    "manufacturer": "Cessna",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "P06T": {
+    "model": "Tecnam P2006T",
+    "manufacturer": "Tecnam",
+    "seats": 4,
+    "engines": {
+      "count": 2,
+      "type": "piston"
+    }
+  },
+  "P208": {
+    "model": "Tecnam P2008",
+    "manufacturer": "Tecnam",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "P210": {
+    "model": "Cessna P210 Pressurized Centurion",
+    "manufacturer": "Cessna",
+    "seats": 6,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "P28A": {
+    "model": "Piper PA-28 Cherokee",
+    "manufacturer": "Piper",
+    "seats": 4,
+    "rangeKm": 1010,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "P28B": {
+    "model": "Piper PA-28-235 Cherokee",
+    "manufacturer": "Piper",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "P28R": {
+    "model": "Piper PA-28R Cherokee Arrow",
+    "manufacturer": "Piper",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "P28S": {
+    "model": "Piper PA-28R Turbo Arrow",
+    "manufacturer": "Piper",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "P28T": {
+    "model": "Piper PA-28RT Arrow IV",
+    "manufacturer": "Piper",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "P28U": {
+    "model": "Piper PA-28RT Turbo Arrow IV",
+    "manufacturer": "Piper",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "P32T": {
+    "model": "Piper PA-32RT Lance II",
+    "manufacturer": "Piper",
+    "seats": 6,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "P46T": {
+    "model": "Piper PA-46 Malibu Meridian",
+    "manufacturer": "Piper",
+    "seats": 6,
+    "engines": {
+      "count": 1,
+      "type": "turboprop"
+    }
+  },
+  "P68": {
+    "model": "Partenavia P.68",
+    "manufacturer": "Partenavia",
+    "seats": 7,
+    "engines": {
+      "count": 2,
+      "type": "piston"
+    }
+  },
+  "PA18": {
+    "model": "Piper PA-18 Super Cub",
+    "manufacturer": "Piper",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "PA23": {
+    "model": "Piper PA-23 Apache",
+    "manufacturer": "Piper",
+    "seats": 4,
+    "engines": {
+      "count": 2,
+      "type": "piston"
+    }
+  },
+  "PA24": {
+    "model": "Piper PA-24 Comanche",
+    "manufacturer": "Piper",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "PA30": {
+    "model": "Piper PA-30 Twin Comanche",
+    "manufacturer": "Piper",
+    "seats": 4,
+    "engines": {
+      "count": 2,
+      "type": "piston"
+    }
+  },
+  "PA31": {
+    "model": "Piper PA-31 Navajo",
+    "manufacturer": "Piper",
+    "seats": 8,
+    "engines": {
+      "count": 2,
+      "type": "piston"
+    }
+  },
+  "PA32": {
+    "model": "Piper PA-32 Saratoga",
+    "manufacturer": "Piper",
+    "seats": 6,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "PA34": {
+    "model": "Piper PA-34 Seneca",
+    "manufacturer": "Piper",
+    "seats": 6,
+    "engines": {
+      "count": 2,
+      "type": "piston"
+    }
+  },
+  "PA38": {
+    "model": "Piper PA-38 Tomahawk",
+    "manufacturer": "Piper",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "PA44": {
+    "model": "Piper PA-44 Seminole",
+    "manufacturer": "Piper",
+    "seats": 4,
+    "engines": {
+      "count": 2,
+      "type": "piston"
+    }
+  },
+  "PA46": {
+    "model": "Piper PA-46 Malibu",
+    "manufacturer": "Piper",
+    "seats": 6,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "PC12": {
+    "model": "Pilatus PC-12",
+    "manufacturer": "Pilatus",
+    "seats": 9,
+    "rangeKm": 3417,
+    "engines": {
+      "count": 1,
+      "type": "turboprop"
+    }
+  },
+  "PC24": {
+    "model": "Pilatus PC-24",
+    "manufacturer": "Pilatus",
+    "seats": 10,
+    "rangeKm": 3704,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "PIVI": {
+    "model": "Pipistrel Virus",
+    "manufacturer": "Pipistrel",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "R22": {
+    "model": "Robinson R22",
+    "manufacturer": "Robinson",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    },
+    "cruiseKts": 96
+  },
+  "R44": {
+    "model": "Robinson R44",
+    "manufacturer": "Robinson",
+    "seats": 4,
+    "rangeKm": 560,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    },
+    "cruiseKts": 109
+  },
+  "R66": {
+    "model": "Robinson R66",
+    "manufacturer": "Robinson",
+    "seats": 5,
+    "rangeKm": 630,
+    "engines": {
+      "count": 1,
+      "type": "turboshaft"
+    }
+  },
+  "RALL": {
+    "model": "Socata MS-880 Rallye",
+    "manufacturer": "Socata",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "RJ1H": {
+    "model": "BAe Avro RJ100",
+    "manufacturer": "BAe",
+    "seats": 100,
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "RJ70": {
+    "model": "BAe Avro RJ70",
+    "manufacturer": "BAe",
+    "seats": 70,
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "RJ85": {
+    "model": "BAe Avro RJ85",
+    "manufacturer": "BAe",
+    "seats": 85,
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
+  "RV10": {
+    "model": "Van's RV-10",
+    "manufacturer": "Van's Aircraft",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "RV12": {
+    "model": "Van's RV-12",
+    "manufacturer": "Van's Aircraft",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "RV6": {
+    "model": "Van's RV-6",
+    "manufacturer": "Van's Aircraft",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "RV7": {
+    "model": "Van's RV-7",
+    "manufacturer": "Van's Aircraft",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "RV8": {
+    "model": "Van's RV-8",
+    "manufacturer": "Van's Aircraft",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "RV9": {
+    "model": "Van's RV-9",
+    "manufacturer": "Van's Aircraft",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "S22T": {
+    "model": "Cirrus SR22T",
+    "manufacturer": "Cirrus Aircraft",
+    "seats": 5,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "S76": {
+    "model": "Sikorsky S-76",
+    "manufacturer": "Sikorsky",
+    "seats": 12,
+    "engines": {
+      "count": 2,
+      "type": "turboshaft"
+    }
+  },
+  "S92": {
+    "model": "Sikorsky S-92",
+    "manufacturer": "Sikorsky",
+    "seats": 19,
+    "engines": {
+      "count": 2,
+      "type": "turboshaft"
+    }
+  },
+  "SB20": {
+    "rarity": "rare",
+    "model": "Saab 2000",
+    "manufacturer": "Saab",
+    "seats": 50,
+    "rangeKm": 2868,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "SF25": {
+    "model": "Scheibe SF-25 Falke",
+    "manufacturer": "Scheibe Flugzeugbau",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    },
+    "cruiseKts": 85
+  },
+  "SF34": {
+    "model": "Saab 340",
+    "manufacturer": "Saab",
+    "seats": 34,
+    "rangeKm": 1732,
+    "engines": {
+      "count": 2,
+      "type": "turboprop"
+    }
+  },
+  "SF50": {
+    "model": "Cirrus Vision SF50",
+    "manufacturer": "Cirrus Aircraft",
+    "seats": 7,
+    "rangeKm": 2222,
+    "engines": {
+      "count": 1,
+      "type": "jet"
+    }
+  },
+  "SHRK": {
+    "model": "Shark Aero Shark",
+    "manufacturer": "Shark Aero",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "SIRA": {
+    "model": "Tecnam P2002 Sierra",
+    "manufacturer": "Tecnam",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "SR20": {
+    "model": "Cirrus SR20",
+    "manufacturer": "Cirrus Aircraft",
+    "seats": 4,
+    "rangeKm": 1158,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "SR22": {
+    "model": "Cirrus SR22",
+    "manufacturer": "Cirrus Aircraft",
+    "seats": 5,
+    "rangeKm": 2038,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "SU95": {
+    "rarity": "rare",
+    "model": "Sukhoi Superjet 100",
+    "manufacturer": "Sukhoi",
+    "seats": 98,
+    "rangeKm": 3048,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "TB20": {
+    "model": "Socata TB-20 Trinidad",
+    "manufacturer": "Socata",
+    "seats": 5,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "TB21": {
+    "model": "Socata TB-21 Trinidad TC",
+    "manufacturer": "Socata",
+    "seats": 5,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "TBM7": {
+    "model": "Socata TBM 700",
+    "manufacturer": "Socata",
+    "seats": 6,
+    "engines": {
+      "count": 1,
+      "type": "turboprop"
+    }
+  },
+  "TBM8": {
+    "model": "Socata TBM 850",
+    "manufacturer": "Socata",
+    "seats": 6,
+    "engines": {
+      "count": 1,
+      "type": "turboprop"
+    }
+  },
+  "TBM9": {
+    "rarity": "uncommon",
+    "model": "Daher TBM 900",
+    "manufacturer": "Daher",
+    "seats": 6,
+    "rangeKm": 3241,
+    "engines": {
+      "count": 1,
+      "type": "turboprop"
+    }
+  },
+  "TWEN": {
+    "model": "Tecnam P2010 Twenty-Ten",
+    "manufacturer": "Tecnam",
+    "seats": 4,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "VENT": {
+    "model": "Schempp-Hirth Ventus",
+    "manufacturer": "Schempp-Hirth",
+    "seats": 1,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  },
+  "WT9": {
+    "model": "Aerospool WT-9 Dynamic",
+    "manufacturer": "Aerospool",
+    "seats": 2,
+    "engines": {
+      "count": 1,
+      "type": "piston"
+    }
+  }
+}

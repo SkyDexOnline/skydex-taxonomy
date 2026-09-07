@@ -1,0 +1,48 @@
+name: Missing type
+description: A designator the network hears that has no row (or a wrong name) in the table.
+title: "Missing type: <CODE>"
+labels: [missing-type]
+body:
+  - type: input
+    id: code
+    attributes:
+      label: ICAO designator
+      placeholder: P46T
+    validations:
+      required: true
+  - type: input
+    id: doc8643
+    attributes:
+      label: DOC 8643 reference
+      description: Link to the ICAO DOC 8643 entry for this designator. Without it the issue is closed — an older dataset behind Skydex invented keys like E195E2, and every invented key is a page nobody reaches.
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Full model name, with manufacturer
+      placeholder: Piper PA-46-500TP Malibu Meridian
+    validations:
+      required: true
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Manufacturer
+      placeholder: Piper
+    validations:
+      required: true
+  - type: input
+    id: engines
+    attributes:
+      label: Engines
+      description: count and type (jet / turboprop / turboshaft / piston / electric)
+      placeholder: 1 turboprop
+  - type: dropdown
+    id: tier
+    attributes:
+      label: Proposed tier
+      options: [common, uncommon, rare, epic, legendary, mythical]
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else (seats, range, sources)

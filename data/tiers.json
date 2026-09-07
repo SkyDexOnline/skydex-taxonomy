@@ -1,0 +1,1721 @@
+{
+  "_readme": "Effective rarity tier of every aircraft type in the Skydex reference, generated from the live database by the upstream publish workflow. Do not edit: propose a change in data/aircraft-types.json instead. `source` says whether the tier was set by hand (curated) or inherited from the older dataset (dump). A `curatedTier` field means the curated value has not been applied to the reference yet.",
+  "generatedAt": "2026-09-07T01:58:50.589Z",
+  "count": 283,
+  "skipped": 17,
+  "byTier": {
+    "common": 187,
+    "uncommon": 35,
+    "rare": 26,
+    "epic": 23,
+    "legendary": 8,
+    "mythical": 4
+  },
+  "bySource": {
+    "curated": 45,
+    "dump": 238
+  },
+  "types": {
+    "A124": {
+      "model": "Antonov An-124 Ruslan",
+      "manufacturer": "Antonov",
+      "tier": "legendary",
+      "source": "curated"
+    },
+    "A139": {
+      "model": "Leonardo AW139",
+      "manufacturer": "Leonardo",
+      "tier": "common",
+      "source": "curated"
+    },
+    "A19N": {
+      "model": "Airbus A319neo",
+      "manufacturer": "Airbus",
+      "tier": "uncommon",
+      "source": "curated"
+    },
+    "A20N": {
+      "model": "Airbus A320neo",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A210": {
+      "model": "Aquila A210",
+      "manufacturer": "Aquila",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "A219": {
+      "model": "A220 Family",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A21N": {
+      "model": "Airbus A321neo",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A220": {
+      "model": "A220 Family",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A306": {
+      "model": "Airbus A300-600",
+      "manufacturer": "Airbus",
+      "tier": "rare",
+      "source": "curated"
+    },
+    "A310": {
+      "model": "Airbus A310",
+      "manufacturer": "Airbus",
+      "tier": "epic",
+      "source": "curated"
+    },
+    "A318": {
+      "model": "Airbus A318",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A319": {
+      "model": "Airbus A319",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A320": {
+      "model": "Airbus A320",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "curated"
+    },
+    "A321": {
+      "model": "Airbus A321",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "curated"
+    },
+    "A330": {
+      "model": "A330 Family",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A332": {
+      "model": "Airbus A330-200",
+      "manufacturer": "Airbus",
+      "tier": "epic",
+      "source": "curated",
+      "curatedTier": "uncommon"
+    },
+    "A333": {
+      "model": "Airbus A330-300",
+      "manufacturer": "Airbus",
+      "tier": "epic",
+      "source": "curated",
+      "curatedTier": "uncommon"
+    },
+    "A337": {
+      "model": "A330-700 Beluga",
+      "manufacturer": "Airbus",
+      "tier": "mythical",
+      "source": "dump"
+    },
+    "A338": {
+      "model": "Airbus A330-800neo",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A339": {
+      "model": "Airbus A330-900neo",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A340": {
+      "model": "A340 Family",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A342": {
+      "model": "Airbus A340-200",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A343": {
+      "model": "Airbus A340-300",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A345": {
+      "model": "Airbus A340-500",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A346": {
+      "model": "Airbus A340-600",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A350": {
+      "model": "A350 Family",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A358": {
+      "model": "A350 Family",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A359": {
+      "model": "Airbus A350-900",
+      "manufacturer": "Airbus",
+      "tier": "rare",
+      "source": "curated"
+    },
+    "A35K": {
+      "model": "Airbus A350-1000",
+      "manufacturer": "Airbus",
+      "tier": "legendary",
+      "source": "curated",
+      "curatedTier": "rare"
+    },
+    "A380": {
+      "model": "A380 Family",
+      "manufacturer": "Airbus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "A388": {
+      "model": "Airbus A380-800",
+      "manufacturer": "Airbus",
+      "tier": "mythical",
+      "source": "dump"
+    },
+    "A3ST": {
+      "model": "Airbus A300-600ST Beluga",
+      "manufacturer": "Airbus",
+      "tier": "mythical",
+      "source": "dump"
+    },
+    "A400": {
+      "model": "Airbus A400M Atlas",
+      "manufacturer": "Airbus",
+      "tier": "epic",
+      "source": "curated"
+    },
+    "AA5": {
+      "model": "Grumman American AA-5 Traveler",
+      "manufacturer": "Grumman American",
+      "tier": "common",
+      "source": "dump"
+    },
+    "AN12": {
+      "model": "Antonov An-12",
+      "manufacturer": "Antonov",
+      "tier": "epic",
+      "source": "curated"
+    },
+    "AN26": {
+      "model": "Antonov An-26",
+      "manufacturer": "Antonov",
+      "tier": "epic",
+      "source": "curated"
+    },
+    "AP22": {
+      "model": "Aeroprakt A-22 Foxbat",
+      "manufacturer": "Aeroprakt",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "AP32": {
+      "model": "Aeroprakt A-32 Vixxen",
+      "manufacturer": "Aeroprakt",
+      "tier": "common",
+      "source": "curated"
+    },
+    "AS50": {
+      "model": "Airbus Helicopters AS350 Écureuil",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "common",
+      "source": "dump"
+    },
+    "AS55": {
+      "model": "Airbus Helicopters AS355 Ecureuil 2",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "common",
+      "source": "dump"
+    },
+    "AS65": {
+      "model": "Airbus Helicopters AS365 Dauphin 2",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "common",
+      "source": "dump"
+    },
+    "AT43": {
+      "model": "ATR 42-300",
+      "manufacturer": "ATR",
+      "tier": "common",
+      "source": "dump"
+    },
+    "AT45": {
+      "model": "ATR 42-500",
+      "manufacturer": "ATR",
+      "tier": "common",
+      "source": "dump"
+    },
+    "AT46": {
+      "model": "ATR 42-600",
+      "manufacturer": "ATR",
+      "tier": "common",
+      "source": "dump"
+    },
+    "AT72": {
+      "model": "ATR 72",
+      "manufacturer": "ATR",
+      "tier": "common",
+      "source": "dump"
+    },
+    "AT73": {
+      "model": "ATR 72-200",
+      "manufacturer": "ATR",
+      "tier": "common",
+      "source": "dump"
+    },
+    "AT75": {
+      "model": "ATR 72-500",
+      "manufacturer": "ATR",
+      "tier": "common",
+      "source": "dump"
+    },
+    "AT76": {
+      "model": "ATR 72-600",
+      "manufacturer": "ATR",
+      "tier": "common",
+      "source": "curated"
+    },
+    "ATP": {
+      "model": "BAe ATP",
+      "manufacturer": "BAe",
+      "tier": "common",
+      "source": "dump"
+    },
+    "B06": {
+      "model": "Bell 206 JetRanger",
+      "manufacturer": "Bell",
+      "tier": "common",
+      "source": "curated"
+    },
+    "B350": {
+      "model": "Super King Air 350",
+      "manufacturer": "Beechcraft",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "B37M": {
+      "model": "Boeing 737 MAX 7",
+      "manufacturer": "Boeing",
+      "tier": "epic",
+      "source": "curated"
+    },
+    "B38M": {
+      "model": "Boeing 737 MAX 8",
+      "manufacturer": "Boeing",
+      "tier": "common",
+      "source": "dump"
+    },
+    "B39M": {
+      "model": "Boeing 737 MAX 9",
+      "manufacturer": "Boeing",
+      "tier": "common",
+      "source": "dump"
+    },
+    "B3XM": {
+      "model": "Boeing 737 MAX 10",
+      "manufacturer": "Boeing",
+      "tier": "legendary",
+      "source": "curated"
+    },
+    "B407": {
+      "model": "Bell 407",
+      "manufacturer": "Bell",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "B733": {
+      "model": "Boeing 737-300",
+      "manufacturer": "Boeing",
+      "tier": "rare",
+      "source": "curated"
+    },
+    "B734": {
+      "model": "Boeing 737-400",
+      "manufacturer": "Boeing",
+      "tier": "rare",
+      "source": "curated"
+    },
+    "B735": {
+      "model": "Boeing 737-500",
+      "manufacturer": "Boeing",
+      "tier": "epic",
+      "source": "curated"
+    },
+    "B736": {
+      "model": "Boeing 737-600",
+      "manufacturer": "Boeing",
+      "tier": "epic",
+      "source": "curated"
+    },
+    "B737": {
+      "model": "Boeing 737-700",
+      "manufacturer": "Boeing",
+      "tier": "common",
+      "source": "dump"
+    },
+    "B738": {
+      "model": "Boeing 737-800",
+      "manufacturer": "Boeing",
+      "tier": "common",
+      "source": "curated"
+    },
+    "B739": {
+      "model": "Boeing 737-900",
+      "manufacturer": "Boeing",
+      "tier": "uncommon",
+      "source": "curated"
+    },
+    "B741": {
+      "model": "Boeing 747-100",
+      "manufacturer": "Boeing",
+      "tier": "mythical",
+      "source": "curated"
+    },
+    "B742": {
+      "model": "Boeing 747-200",
+      "manufacturer": "Boeing",
+      "tier": "legendary",
+      "source": "curated"
+    },
+    "B743": {
+      "model": "Boeing 747-300",
+      "manufacturer": "Boeing",
+      "tier": "legendary",
+      "source": "curated"
+    },
+    "B744": {
+      "model": "Boeing 747-400",
+      "manufacturer": "Boeing",
+      "tier": "epic",
+      "source": "dump"
+    },
+    "B748": {
+      "model": "Boeing 747-8",
+      "manufacturer": "Boeing",
+      "tier": "legendary",
+      "source": "dump"
+    },
+    "B752": {
+      "model": "Boeing 757-200",
+      "manufacturer": "Boeing",
+      "tier": "common",
+      "source": "dump"
+    },
+    "B753": {
+      "model": "Boeing 757-300",
+      "manufacturer": "Boeing",
+      "tier": "common",
+      "source": "dump"
+    },
+    "B762": {
+      "model": "Boeing 767-200",
+      "manufacturer": "Boeing",
+      "tier": "common",
+      "source": "dump"
+    },
+    "B763": {
+      "model": "Boeing 767-300",
+      "manufacturer": "Boeing",
+      "tier": "common",
+      "source": "dump"
+    },
+    "B764": {
+      "model": "Boeing 767-400",
+      "manufacturer": "Boeing",
+      "tier": "common",
+      "source": "dump"
+    },
+    "B772": {
+      "model": "Boeing 777-200",
+      "manufacturer": "Boeing",
+      "tier": "common",
+      "source": "dump"
+    },
+    "B773": {
+      "model": "Boeing 777-300",
+      "manufacturer": "Boeing",
+      "tier": "common",
+      "source": "dump"
+    },
+    "B77L": {
+      "model": "Boeing 777-200LR",
+      "manufacturer": "Boeing",
+      "tier": "epic",
+      "source": "dump"
+    },
+    "B77W": {
+      "model": "Boeing 777-300ER",
+      "manufacturer": "Boeing",
+      "tier": "rare",
+      "source": "curated"
+    },
+    "B788": {
+      "model": "Boeing 787-8 Dreamliner",
+      "manufacturer": "Boeing",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "B789": {
+      "model": "Boeing 787-9 Dreamliner",
+      "manufacturer": "Boeing",
+      "tier": "rare",
+      "source": "curated"
+    },
+    "B78X": {
+      "model": "Boeing 787-10 Dreamliner",
+      "manufacturer": "Boeing",
+      "tier": "common",
+      "source": "dump"
+    },
+    "BCS1": {
+      "model": "Airbus A220-100",
+      "manufacturer": "Airbus",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "BCS3": {
+      "model": "Airbus A220-300",
+      "manufacturer": "Airbus",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "BE20": {
+      "model": "Beechcraft King Air 200",
+      "manufacturer": "Beechcraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "BE33": {
+      "model": "Bonanza 33",
+      "manufacturer": "Beechcraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "BE35": {
+      "model": "Beechcraft Bonanza 35",
+      "manufacturer": "Beechcraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "BE36": {
+      "model": "Beechcraft Bonanza 36",
+      "manufacturer": "Beechcraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "BE40": {
+      "model": "Beechjet 400",
+      "manufacturer": "Beechcraft",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "BE55": {
+      "model": "Beechcraft Baron 55",
+      "manufacturer": "Beechcraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "BE58": {
+      "model": "Beechcraft Baron 58",
+      "manufacturer": "Beechcraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "BE60": {
+      "model": "Duke",
+      "manufacturer": "Beechcraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "BE9L": {
+      "model": "King Air 90",
+      "manufacturer": "Raytheon Aircraft",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "BREZ": {
+      "model": "Aerostyle Breezer",
+      "manufacturer": "Aerostyle",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C130": {
+      "model": "Lockheed C-130 Hercules",
+      "manufacturer": "Lockheed",
+      "tier": "rare",
+      "source": "curated"
+    },
+    "C150": {
+      "model": "Cessna 150",
+      "manufacturer": "Textron Aviation",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C152": {
+      "model": "Cessna 152",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C162": {
+      "model": "Cessna 162 Skycatcher",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C17": {
+      "model": "Boeing C-17 Globemaster III",
+      "manufacturer": "Boeing",
+      "tier": "epic",
+      "source": "curated"
+    },
+    "C170": {
+      "model": "Cessna 170",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C172": {
+      "model": "Cessna 172 Skyhawk",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C175": {
+      "model": "Cessna 175 Skylark",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C177": {
+      "model": "Cessna 177 Cardinal",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C180": {
+      "model": "Cessna 180 Skywagon",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C182": {
+      "model": "Cessna 182 Skylane",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C185": {
+      "model": "Cessna 185 Skywagon",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C206": {
+      "model": "Cessna 206 Stationair",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C208": {
+      "model": "Cessna 208 Caravan",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C210": {
+      "model": "Cessna 210 Centurion",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C25A": {
+      "model": "Citation CJ2",
+      "manufacturer": "Cessna",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "C25B": {
+      "model": "Citation CJ3",
+      "manufacturer": "Cessna",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "C25C": {
+      "model": "Citation CJ4",
+      "manufacturer": "Cessna",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "C310": {
+      "model": "Cessna 310",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C402": {
+      "model": "Cessna 402",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C42": {
+      "model": "Ikarus C42",
+      "manufacturer": "Comco Ikarus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C421": {
+      "model": "Cessna 421 Golden Eagle",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C510": {
+      "model": "Cessna Citation Mustang",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C525": {
+      "model": "Cessna CitationJet CJ1",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C550": {
+      "model": "Cessna Citation II",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C560": {
+      "model": "Cessna Citation V",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C56X": {
+      "model": "Cessna Citation Excel",
+      "manufacturer": "Cessna",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "C650": {
+      "model": "Citation III/VI/VII",
+      "manufacturer": "Cessna",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "C680": {
+      "model": "Cessna Citation Sovereign",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C68A": {
+      "model": "Citation Latitude",
+      "manufacturer": "Textron Aviation",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "C700": {
+      "model": "Cessna Citation Longitude",
+      "manufacturer": "Cessna",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "C72R": {
+      "model": "Cessna 172RG Cutlass",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C750": {
+      "model": "Cessna Citation X",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C82R": {
+      "model": "Cessna 182RG",
+      "manufacturer": "Textron Aviation",
+      "tier": "common",
+      "source": "dump"
+    },
+    "C82T": {
+      "model": "Cessna TR182 Turbo Skylane RG",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "CH7A": {
+      "model": "Aeronca 7AC Champion",
+      "manufacturer": "Aeronca",
+      "tier": "common",
+      "source": "dump"
+    },
+    "CH7B": {
+      "model": "American Champion 7GCBC Citabria",
+      "manufacturer": "American Champion",
+      "tier": "common",
+      "source": "dump"
+    },
+    "CL30": {
+      "model": "Challenger 300",
+      "manufacturer": "Bombardier",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "CL35": {
+      "model": "Bombardier Challenger 350",
+      "manufacturer": "Bombardier",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "CL60": {
+      "model": "Bombardier Challenger 600",
+      "manufacturer": "Bombardier",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "COL3": {
+      "model": "Cessna 350 Corvalis",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "COL4": {
+      "model": "Cessna 400 Corvalis TT",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "CRJ1": {
+      "model": "Bombardier CRJ100",
+      "manufacturer": "Bombardier",
+      "tier": "common",
+      "source": "dump"
+    },
+    "CRJ2": {
+      "model": "Bombardier CRJ200",
+      "manufacturer": "Bombardier",
+      "tier": "common",
+      "source": "dump"
+    },
+    "CRJ7": {
+      "model": "Bombardier CRJ700",
+      "manufacturer": "Bombardier",
+      "tier": "common",
+      "source": "dump"
+    },
+    "CRJ9": {
+      "model": "Bombardier CRJ900",
+      "manufacturer": "Bombardier",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "CRJX": {
+      "model": "Bombardier CRJ1000",
+      "manufacturer": "Bombardier",
+      "tier": "common",
+      "source": "dump"
+    },
+    "D250": {
+      "model": "Robin DR-250 Capitaine",
+      "manufacturer": "Robin",
+      "tier": "common",
+      "source": "curated"
+    },
+    "DA40": {
+      "model": "Diamond DA40 Diamond Star",
+      "manufacturer": "Diamond Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "DA42": {
+      "model": "Diamond DA42 Twin Star",
+      "manufacturer": "Diamond Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "DA50": {
+      "model": "Diamond DA50",
+      "manufacturer": "Diamond Aircraft",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "DA62": {
+      "model": "Diamond DA62",
+      "manufacturer": "Diamond Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "DH8A": {
+      "model": "De Havilland Canada Dash 8-100",
+      "manufacturer": "De Havilland Canada",
+      "tier": "common",
+      "source": "dump"
+    },
+    "DH8B": {
+      "model": "De Havilland Canada Dash 8-200",
+      "manufacturer": "De Havilland Canada",
+      "tier": "common",
+      "source": "dump"
+    },
+    "DH8C": {
+      "model": "De Havilland Canada Dash 8-300",
+      "manufacturer": "De Havilland Canada",
+      "tier": "common",
+      "source": "dump"
+    },
+    "DH8D": {
+      "model": "De Havilland Canada Dash 8-400",
+      "manufacturer": "De Havilland Canada",
+      "tier": "common",
+      "source": "dump"
+    },
+    "DIMO": {
+      "model": "HK36TTC Super Dimona",
+      "manufacturer": "Hoffman Flugzeugbau",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "DR30": {
+      "model": "Robin DR300",
+      "manufacturer": "Robin",
+      "tier": "common",
+      "source": "dump"
+    },
+    "DR40": {
+      "model": "Robin DR400",
+      "manufacturer": "Robin",
+      "tier": "common",
+      "source": "dump"
+    },
+    "DV20": {
+      "model": "Diamond DV20 Katana",
+      "manufacturer": "Diamond Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "E135": {
+      "model": "Embraer ERJ 135",
+      "manufacturer": "Embraer",
+      "tier": "common",
+      "source": "dump"
+    },
+    "E140": {
+      "model": "Embraer ERJ 140",
+      "manufacturer": "Embraer",
+      "tier": "common",
+      "source": "dump"
+    },
+    "E145": {
+      "model": "Embraer ERJ 145",
+      "manufacturer": "Embraer",
+      "tier": "common",
+      "source": "dump"
+    },
+    "E170": {
+      "model": "Embraer E170",
+      "manufacturer": "Embraer",
+      "tier": "common",
+      "source": "dump"
+    },
+    "E175": {
+      "model": "Embraer E175",
+      "manufacturer": "Embraer",
+      "tier": "common",
+      "source": "dump"
+    },
+    "E190": {
+      "model": "Embraer E190",
+      "manufacturer": "Embraer",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "E195": {
+      "model": "Embraer E195",
+      "manufacturer": "Embraer",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "E290": {
+      "model": "Embraer E190-E2",
+      "manufacturer": "Embraer",
+      "tier": "uncommon",
+      "source": "curated"
+    },
+    "E295": {
+      "model": "Embraer E195-E2",
+      "manufacturer": "Embraer",
+      "tier": "uncommon",
+      "source": "curated"
+    },
+    "E50P": {
+      "model": "Embraer Phenom 100",
+      "manufacturer": "Embraer",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "E545": {
+      "model": "Embraer Praetor 500",
+      "manufacturer": "Embraer",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "E550": {
+      "model": "Legacy 450/500",
+      "manufacturer": "Embraer",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "E55P": {
+      "model": "Embraer Phenom 300",
+      "manufacturer": "Embraer",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "E75L": {
+      "model": "Embraer E175 (long wing)",
+      "manufacturer": "Embraer",
+      "tier": "common",
+      "source": "dump"
+    },
+    "E75S": {
+      "model": "Embraer E175 (short wing)",
+      "manufacturer": "Embraer",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "EC20": {
+      "model": "Airbus Helicopters H120 Colibri",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "EC35": {
+      "model": "Airbus Helicopters H135",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "EC45": {
+      "model": "Airbus Helicopters H145",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "ECHO": {
+      "model": "Tecnam P92 Echo",
+      "manufacturer": "Tecnam",
+      "tier": "common",
+      "source": "dump"
+    },
+    "EV97": {
+      "model": "Evektor EV-97 EuroStar",
+      "manufacturer": "Evektor",
+      "tier": "common",
+      "source": "dump"
+    },
+    "F100": {
+      "model": "Fokker 100",
+      "manufacturer": "Fokker",
+      "tier": "common",
+      "source": "dump"
+    },
+    "F2TH": {
+      "model": "Dassault Falcon 2000",
+      "manufacturer": "Dassault",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "F50": {
+      "model": "Fokker 50",
+      "manufacturer": "Fokker",
+      "tier": "common",
+      "source": "dump"
+    },
+    "F70": {
+      "model": "Fokker 70",
+      "manufacturer": "Fokker",
+      "tier": "common",
+      "source": "dump"
+    },
+    "FA7X": {
+      "model": "Dassault Falcon 7X",
+      "manufacturer": "Dassault",
+      "tier": "epic",
+      "source": "dump"
+    },
+    "FDCT": {
+      "model": "Flight Design CT",
+      "manufacturer": "Flight Design",
+      "tier": "common",
+      "source": "dump"
+    },
+    "FM2": {
+      "model": "Metro II Family",
+      "manufacturer": "Fairchild",
+      "tier": "common",
+      "source": "dump"
+    },
+    "FM3": {
+      "model": "Metro III Family",
+      "manufacturer": "Fairchild",
+      "tier": "common",
+      "source": "dump"
+    },
+    "G109": {
+      "model": "Grob G109",
+      "manufacturer": "Grob",
+      "tier": "common",
+      "source": "dump"
+    },
+    "G150": {
+      "model": "Gulfstream G150",
+      "manufacturer": "Gulfstream Aerospace",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "G280": {
+      "model": "Gulfstream G280",
+      "manufacturer": "Gulfstream Aerospace",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "G70": {
+      "model": "Groppo G-70",
+      "manufacturer": "Groppo",
+      "tier": "common",
+      "source": "curated"
+    },
+    "GA5C": {
+      "model": "Gulfstream G500",
+      "manufacturer": "Gulfstream Aerospace",
+      "tier": "epic",
+      "source": "dump"
+    },
+    "GA6C": {
+      "model": "Gulfstream G600",
+      "manufacturer": "Gulfstream Aerospace",
+      "tier": "epic",
+      "source": "dump"
+    },
+    "GALX": {
+      "model": "Gulfstream G200",
+      "manufacturer": "Gulfstream Aerospace",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "GL5T": {
+      "model": "Bombardier Global 5000",
+      "manufacturer": "Bombardier",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "GL7T": {
+      "model": "Global 7500",
+      "manufacturer": "Bombardier Business Aircraft",
+      "tier": "epic",
+      "source": "dump"
+    },
+    "GLEX": {
+      "model": "Bombardier Global Express",
+      "manufacturer": "Bombardier",
+      "tier": "epic",
+      "source": "dump"
+    },
+    "GLF4": {
+      "model": "Gulfstream IV",
+      "manufacturer": "Gulfstream Aerospace",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "GLF5": {
+      "model": "Gulfstream V",
+      "manufacturer": "Gulfstream Aerospace",
+      "tier": "epic",
+      "source": "dump"
+    },
+    "GLF6": {
+      "model": "Gulfstream G650",
+      "manufacturer": "Gulfstream Aerospace",
+      "tier": "epic",
+      "source": "dump"
+    },
+    "GLID": {
+      "model": "Glider",
+      "manufacturer": "Unknown Manufacturer",
+      "tier": "common",
+      "source": "dump"
+    },
+    "H120": {
+      "model": "Airbus Helicopters H120 Colibri",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "common",
+      "source": "dump"
+    },
+    "H125": {
+      "model": "Airbus Helicopters H125",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "common",
+      "source": "dump"
+    },
+    "H130": {
+      "model": "Airbus Helicopters H130",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "common",
+      "source": "dump"
+    },
+    "H135": {
+      "model": "Airbus Helicopters H135",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "common",
+      "source": "dump"
+    },
+    "H145": {
+      "model": "Airbus Helicopters H145",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "common",
+      "source": "dump"
+    },
+    "H155": {
+      "model": "Airbus Helicopters H155",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "common",
+      "source": "dump"
+    },
+    "H175": {
+      "model": "Airbus Helicopters H175",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "common",
+      "source": "dump"
+    },
+    "H215": {
+      "model": "H215 Family",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "common",
+      "source": "dump"
+    },
+    "H225": {
+      "model": "Airbus Helicopters H225 Super Puma",
+      "manufacturer": "Airbus Helicopters",
+      "tier": "common",
+      "source": "dump"
+    },
+    "H25B": {
+      "model": "Hawker 800",
+      "manufacturer": "BAe",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "H500": {
+      "model": "MD500",
+      "manufacturer": "McDonnell Douglas",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "HDJT": {
+      "model": "Honda HA-420 HondaJet",
+      "manufacturer": "Honda Aircraft",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "IL76": {
+      "model": "Ilyushin Il-76",
+      "manufacturer": "Ilyushin",
+      "tier": "epic",
+      "source": "curated"
+    },
+    "J3": {
+      "model": "Piper J-3 Cub",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "L410": {
+      "model": "Let L-410 Turbolet",
+      "manufacturer": "Let",
+      "tier": "rare",
+      "source": "curated"
+    },
+    "LGND": {
+      "model": "Aeropilot Legend",
+      "manufacturer": "Aeropilot",
+      "tier": "common",
+      "source": "dump"
+    },
+    "LJ35": {
+      "model": "Learjet 35",
+      "manufacturer": "Bombardier",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "LJ60": {
+      "model": "Learjet 60",
+      "manufacturer": "Bombardier Business Aircraft",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "M20P": {
+      "model": "Mooney M20",
+      "manufacturer": "Mooney",
+      "tier": "common",
+      "source": "dump"
+    },
+    "M20T": {
+      "model": "Mooney M20M Bravo",
+      "manufacturer": "Mooney",
+      "tier": "common",
+      "source": "dump"
+    },
+    "M600": {
+      "model": "Piper M600",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "M7": {
+      "model": "Maule M-7",
+      "manufacturer": "Maule",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "MD11": {
+      "model": "McDonnell Douglas MD-11",
+      "manufacturer": "McDonnell Douglas",
+      "tier": "legendary",
+      "source": "dump"
+    },
+    "MD82": {
+      "model": "McDonnell Douglas MD-82",
+      "manufacturer": "McDonnell Douglas",
+      "tier": "epic",
+      "source": "curated"
+    },
+    "MD83": {
+      "model": "McDonnell Douglas MD-83",
+      "manufacturer": "McDonnell Douglas",
+      "tier": "epic",
+      "source": "curated"
+    },
+    "MD88": {
+      "model": "McDonnell Douglas MD-88",
+      "manufacturer": "McDonnell Douglas",
+      "tier": "epic",
+      "source": "curated"
+    },
+    "MD90": {
+      "model": "McDonnell Douglas MD-90",
+      "manufacturer": "McDonnell Douglas",
+      "tier": "legendary",
+      "source": "curated"
+    },
+    "O1": {
+      "model": "Cessna O-1 Bird Dog",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "P06T": {
+      "model": "Tecnam P2006T",
+      "manufacturer": "Tecnam",
+      "tier": "common",
+      "source": "dump"
+    },
+    "P208": {
+      "model": "Tecnam P2008",
+      "manufacturer": "Tecnam",
+      "tier": "common",
+      "source": "dump"
+    },
+    "P210": {
+      "model": "Cessna P210 Pressurized Centurion",
+      "manufacturer": "Cessna",
+      "tier": "common",
+      "source": "dump"
+    },
+    "P28A": {
+      "model": "Piper PA-28 Cherokee",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "P28B": {
+      "model": "Piper PA-28-235 Cherokee",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "P28R": {
+      "model": "Piper PA-28R Cherokee Arrow",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "P28S": {
+      "model": "Piper PA-28R Turbo Arrow",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "P28T": {
+      "model": "Piper PA-28RT Arrow IV",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "P28U": {
+      "model": "Piper PA-28RT Turbo Arrow IV",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "P32T": {
+      "model": "Piper PA-32RT Lance II",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "P46T": {
+      "model": "Piper PA-46 Malibu Meridian",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "P68": {
+      "model": "Partenavia P.68",
+      "manufacturer": "Partenavia",
+      "tier": "common",
+      "source": "dump"
+    },
+    "PA18": {
+      "model": "Piper PA-18 Super Cub",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "PA23": {
+      "model": "Piper PA-23 Apache",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "PA24": {
+      "model": "Piper PA-24 Comanche",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "PA30": {
+      "model": "Piper PA-30 Twin Comanche",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "PA31": {
+      "model": "Piper PA-31 Navajo",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "PA32": {
+      "model": "Piper PA-32 Saratoga",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "PA34": {
+      "model": "Piper PA-34 Seneca",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "PA38": {
+      "model": "Piper PA-38 Tomahawk",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "PA39": {
+      "model": "Twin Comanche C/R Family",
+      "manufacturer": "Piper Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "PA44": {
+      "model": "Piper PA-44 Seminole",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "PA46": {
+      "model": "Piper PA-46 Malibu",
+      "manufacturer": "Piper",
+      "tier": "common",
+      "source": "dump"
+    },
+    "PC12": {
+      "model": "Pilatus PC-12",
+      "manufacturer": "Pilatus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "PC24": {
+      "model": "Pilatus PC-24",
+      "manufacturer": "Pilatus",
+      "tier": "common",
+      "source": "dump"
+    },
+    "PIVI": {
+      "model": "Pipistrel Virus",
+      "manufacturer": "Pipistrel",
+      "tier": "common",
+      "source": "dump"
+    },
+    "R22": {
+      "model": "Robinson R22",
+      "manufacturer": "Robinson",
+      "tier": "common",
+      "source": "dump"
+    },
+    "R44": {
+      "model": "Robinson R44",
+      "manufacturer": "Robinson",
+      "tier": "rare",
+      "source": "dump"
+    },
+    "R66": {
+      "model": "Robinson R66",
+      "manufacturer": "Robinson",
+      "tier": "common",
+      "source": "dump"
+    },
+    "RALL": {
+      "model": "Socata MS-880 Rallye",
+      "manufacturer": "Socata",
+      "tier": "common",
+      "source": "dump"
+    },
+    "RJ1H": {
+      "model": "BAe Avro RJ100",
+      "manufacturer": "BAe",
+      "tier": "common",
+      "source": "dump"
+    },
+    "RJ70": {
+      "model": "BAe Avro RJ70",
+      "manufacturer": "BAe",
+      "tier": "common",
+      "source": "dump"
+    },
+    "RJ85": {
+      "model": "BAe Avro RJ85",
+      "manufacturer": "BAe",
+      "tier": "common",
+      "source": "dump"
+    },
+    "RV10": {
+      "model": "Van's RV-10",
+      "manufacturer": "Van's Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "RV12": {
+      "model": "Van's RV-12",
+      "manufacturer": "Van's Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "RV6": {
+      "model": "Van's RV-6",
+      "manufacturer": "Van's Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "RV7": {
+      "model": "Van's RV-7",
+      "manufacturer": "Van's Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "RV8": {
+      "model": "Van's RV-8",
+      "manufacturer": "Van's Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "RV9": {
+      "model": "Van's RV-9",
+      "manufacturer": "Van's Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "S22T": {
+      "model": "Cirrus SR22T",
+      "manufacturer": "Cirrus Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "S76": {
+      "model": "Sikorsky S-76",
+      "manufacturer": "Sikorsky",
+      "tier": "common",
+      "source": "dump"
+    },
+    "S92": {
+      "model": "Sikorsky S-92",
+      "manufacturer": "Sikorsky",
+      "tier": "common",
+      "source": "dump"
+    },
+    "SB20": {
+      "model": "Saab 2000",
+      "manufacturer": "Saab",
+      "tier": "rare",
+      "source": "curated"
+    },
+    "SERV": {
+      "model": "Service Aircraft",
+      "manufacturer": "Unknown Manufacturer",
+      "tier": "common",
+      "source": "dump"
+    },
+    "SF25": {
+      "model": "Scheibe SF-25 Falke",
+      "manufacturer": "Scheibe Flugzeugbau",
+      "tier": "common",
+      "source": "dump"
+    },
+    "SF34": {
+      "model": "Saab 340",
+      "manufacturer": "Saab",
+      "tier": "common",
+      "source": "dump"
+    },
+    "SF50": {
+      "model": "Cirrus Vision SF50",
+      "manufacturer": "Cirrus Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "SHRK": {
+      "model": "Shark Aero Shark",
+      "manufacturer": "Shark Aero",
+      "tier": "uncommon",
+      "source": "dump"
+    },
+    "SIRA": {
+      "model": "Tecnam P2002 Sierra",
+      "manufacturer": "Tecnam",
+      "tier": "common",
+      "source": "dump"
+    },
+    "SR20": {
+      "model": "Cirrus SR20",
+      "manufacturer": "Cirrus Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "SR22": {
+      "model": "Cirrus SR22",
+      "manufacturer": "Cirrus Aircraft",
+      "tier": "common",
+      "source": "dump"
+    },
+    "SU95": {
+      "model": "Sukhoi Superjet 100",
+      "manufacturer": "Sukhoi",
+      "tier": "rare",
+      "source": "curated"
+    },
+    "TB20": {
+      "model": "Socata TB-20 Trinidad",
+      "manufacturer": "Socata",
+      "tier": "common",
+      "source": "dump"
+    },
+    "TB21": {
+      "model": "Socata TB-21 Trinidad TC",
+      "manufacturer": "Socata",
+      "tier": "common",
+      "source": "dump"
+    },
+    "TBM7": {
+      "model": "Socata TBM 700",
+      "manufacturer": "Socata",
+      "tier": "common",
+      "source": "dump"
+    },
+    "TBM8": {
+      "model": "Socata TBM 850",
+      "manufacturer": "Socata",
+      "tier": "common",
+      "source": "dump"
+    },
+    "TBM9": {
+      "model": "Daher TBM 900",
+      "manufacturer": "Daher",
+      "tier": "uncommon",
+      "source": "curated"
+    },
+    "TWEN": {
+      "model": "Tecnam P2010 Twenty-Ten",
+      "manufacturer": "Tecnam",
+      "tier": "common",
+      "source": "dump"
+    },
+    "VENT": {
+      "model": "Schempp-Hirth Ventus",
+      "manufacturer": "Schempp-Hirth",
+      "tier": "common",
+      "source": "dump"
+    },
+    "WT9": {
+      "model": "Aerospool WT-9 Dynamic",
+      "manufacturer": "Aerospool",
+      "tier": "common",
+      "source": "dump"
+    },
+    "MLAT": {
+      "model": "Unknown Aircraft",
+      "manufacturer": "Unknown Manufacturer",
+      "tier": "common",
+      "source": "dump"
+    }
+  }
+}

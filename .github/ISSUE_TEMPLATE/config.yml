@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions — tier debates, ideas
+    url: https://github.com/SkyDexOnline/skydex-taxonomy/discussions
+    about: Open-ended questions and arguments about the axis itself go here, not in issues.
+  - name: Skydex Discord
+    url: https://skydex.online/api/public/discord
+    about: Live alerts, the receiver network, and the people behind the numbers.
+  - name: The live type table
+    url: https://skydex.online/aircraft-types
+    about: Every type with its current tier, as production serves it.

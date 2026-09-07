@@ -1,0 +1,15 @@
+{
+  "_readme": "Sky legends: airframe TYPES that pay the legend bonus in Skydex and have a per-type world-first. This is a separate axis from the rarity tier (see rarity.md) — a legend may sit at any tier. Keyed by ICAO designator. Kept short on purpose: a legend must feel like an event. Mirrors AIRCRAFT_LEGEND_TYPES in the Skydex application; drift fails the publish.",
+  "types": {
+    "A3ST": "Airbus Beluga",
+    "A337": "Airbus BelugaXL",
+    "BLCF": "Boeing 747 Dreamlifter",
+    "A124": "Antonov An-124 Ruslan",
+    "A225": "Antonov An-225 Mriya",
+    "C5M": "Lockheed C-5M Super Galaxy",
+    "VC25": "Air Force One (VC-25)",
+    "B52": "B-52 Stratofortress",
+    "U2": "Lockheed U-2 Dragon Lady",
+    "A400": "Airbus A400M Atlas"
+  }
+}
