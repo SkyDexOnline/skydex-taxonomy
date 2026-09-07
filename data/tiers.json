@@ -1,6 +1,6 @@
 {
   "_readme": "Effective rarity tier of every aircraft type in the Skydex reference, generated from the live database by the upstream publish workflow. Do not edit: propose a change in data/aircraft-types.json instead. `source` says whether the tier was set by hand (curated) or inherited from the older dataset (dump). A `curatedTier` field means the curated value has not been applied to the reference yet.",
-  "generatedAt": "2026-09-07T01:58:50.589Z",
+  "generatedAt": "2026-09-07T12:22:15.890Z",
   "count": 283,
   "skipped": 17,
   "byTier": {
