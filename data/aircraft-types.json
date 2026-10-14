@@ -2300,5 +2300,32 @@
       "count": 1,
       "type": "piston"
     }
+  },
+  "EC25": {
+    "model": "Airbus Helicopters H225 Super Puma",
+    "manufacturer": "Airbus Helicopters",
+    "seats": 19,
+    "engines": {
+      "count": 2,
+      "type": "turboshaft"
+    }
+  },
+  "EC55": {
+    "model": "Airbus Helicopters H155",
+    "manufacturer": "Airbus Helicopters",
+    "seats": 13,
+    "engines": {
+      "count": 2,
+      "type": "turboshaft"
+    }
+  },
+  "EC75": {
+    "model": "Airbus Helicopters H175",
+    "manufacturer": "Airbus Helicopters",
+    "seats": 16,
+    "engines": {
+      "count": 2,
+      "type": "turboshaft"
+    }
   }
 }
