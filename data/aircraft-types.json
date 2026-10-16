@@ -60,6 +60,15 @@
       "type": "jet"
     }
   },
+  "A225": {
+    "rarity": "mythical",
+    "model": "Antonov An-225 Mriya",
+    "manufacturer": "Antonov",
+    "engines": {
+      "count": 6,
+      "type": "jet"
+    }
+  },
   "A306": {
     "rarity": "rare",
     "model": "Airbus A300-600",
@@ -141,6 +150,15 @@
     "manufacturer": "Airbus",
     "seats": 277,
     "rangeKm": 11750,
+    "engines": {
+      "count": 2,
+      "type": "jet"
+    }
+  },
+  "A337": {
+    "rarity": "legendary",
+    "model": "Airbus BelugaXL",
+    "manufacturer": "Airbus",
     "engines": {
       "count": 2,
       "type": "jet"
@@ -462,6 +480,15 @@
       "type": "jet"
     }
   },
+  "B52": {
+    "rarity": "legendary",
+    "model": "Boeing B-52 Stratofortress",
+    "manufacturer": "Boeing",
+    "engines": {
+      "count": 8,
+      "type": "jet"
+    }
+  },
   "B733": {
     "rarity": "rare",
     "model": "Boeing 737-300",
@@ -733,6 +760,15 @@
       "type": "jet"
     }
   },
+  "BLCF": {
+    "rarity": "legendary",
+    "model": "Boeing 747-400 LCF Dreamlifter",
+    "manufacturer": "Boeing",
+    "engines": {
+      "count": 4,
+      "type": "jet"
+    }
+  },
   "BE20": {
     "model": "Beechcraft King Air 200",
     "manufacturer": "Beechcraft",
@@ -1001,6 +1037,15 @@
     "rangeKm": 3428,
     "engines": {
       "count": 2,
+      "type": "jet"
+    }
+  },
+  "C5M": {
+    "rarity": "legendary",
+    "model": "Lockheed C-5M Super Galaxy",
+    "manufacturer": "Lockheed",
+    "engines": {
+      "count": 4,
       "type": "jet"
     }
   },
@@ -2281,6 +2326,24 @@
     "engines": {
       "count": 1,
       "type": "piston"
+    }
+  },
+  "U2": {
+    "rarity": "legendary",
+    "model": "Lockheed U-2 Dragon Lady",
+    "manufacturer": "Lockheed",
+    "engines": {
+      "count": 1,
+      "type": "jet"
+    }
+  },
+  "VC25": {
+    "rarity": "mythical",
+    "model": "Boeing VC-25A (Air Force One)",
+    "manufacturer": "Boeing",
+    "engines": {
+      "count": 4,
+      "type": "jet"
     }
   },
   "VENT": {
