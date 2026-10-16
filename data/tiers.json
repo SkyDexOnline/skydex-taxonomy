@@ -1,18 +1,18 @@
 {
   "_readme": "Effective rarity tier of every aircraft type in the Skydex reference, generated from the live database by the upstream publish workflow. Do not edit: propose a change in data/aircraft-types.json instead. `source` says whether the tier was set by hand (curated) or inherited from the older dataset (dump). A `curatedTier` field means the curated value has not been applied to the reference yet.",
-  "generatedAt": "2026-10-16T02:02:59.914Z",
-  "count": 286,
+  "generatedAt": "2026-10-16T16:31:28.442Z",
+  "count": 292,
   "skipped": 17,
   "byTier": {
     "common": 190,
     "uncommon": 35,
     "rare": 26,
     "epic": 23,
-    "legendary": 8,
-    "mythical": 4
+    "legendary": 12,
+    "mythical": 6
   },
   "bySource": {
-    "curated": 46,
+    "curated": 52,
     "dump": 240
   },
   "types": {
@@ -63,6 +63,12 @@
       "manufacturer": "Airbus",
       "tier": "common",
       "source": "dump"
+    },
+    "A225": {
+      "model": "Antonov An-225 Mriya",
+      "manufacturer": "Antonov",
+      "tier": "mythical",
+      "source": "curated"
     },
     "A306": {
       "model": "Airbus A300-600",
@@ -356,6 +362,12 @@
       "tier": "uncommon",
       "source": "dump"
     },
+    "B52": {
+      "model": "Boeing B-52 Stratofortress",
+      "manufacturer": "Boeing",
+      "tier": "legendary",
+      "source": "curated"
+    },
     "B733": {
       "model": "Boeing 737-300",
       "manufacturer": "Boeing",
@@ -566,6 +578,12 @@
       "tier": "uncommon",
       "source": "dump"
     },
+    "BLCF": {
+      "model": "Boeing 747-400 LCF Dreamlifter",
+      "manufacturer": "Boeing",
+      "tier": "legendary",
+      "source": "curated"
+    },
     "BREZ": {
       "model": "Aerostyle Breezer",
       "manufacturer": "Aerostyle",
@@ -733,6 +751,12 @@
       "manufacturer": "Cessna",
       "tier": "rare",
       "source": "dump"
+    },
+    "C5M": {
+      "model": "Lockheed C-5M Super Galaxy",
+      "manufacturer": "Lockheed",
+      "tier": "legendary",
+      "source": "curated"
     },
     "C650": {
       "model": "Citation III/VI/VII",
@@ -1717,6 +1741,18 @@
       "manufacturer": "Tecnam",
       "tier": "common",
       "source": "dump"
+    },
+    "U2": {
+      "model": "Lockheed U-2 Dragon Lady",
+      "manufacturer": "Lockheed",
+      "tier": "legendary",
+      "source": "curated"
+    },
+    "VC25": {
+      "model": "Boeing VC-25A (Air Force One)",
+      "manufacturer": "Boeing",
+      "tier": "mythical",
+      "source": "curated"
     },
     "VENT": {
       "model": "Schempp-Hirth Ventus",
